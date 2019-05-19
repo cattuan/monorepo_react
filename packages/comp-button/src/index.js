@@ -1,11 +1,8 @@
-import React from 'react'
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+import './styles/index.scss';
+import Button from './Button';
 
-const Button = ({ type = 'button', children, onClick }) => (
-    <div>
-      <button type={type} className="button" onClick={onClick}>
-        {children}
-      </button>
-  </div>
-)
+// ReactDOM.render((<Button>My Button</Button>), document.getElementById('root'));
 
-export default Button
+export default Button;
